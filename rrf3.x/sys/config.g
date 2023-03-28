@@ -13,6 +13,7 @@ M667 S1 						; Select CoreXY mode
 M550 P"ToolChanger" 			; Set machine name
 ;M587 S"ssid" P"password"		; WiFi Settings
 ;M552 S1 P"ssid"				; Enable WiFi Networking
+M552 P0.0.0.0					; Ask DHCP for IP Address
 M552 S1							; Enable Networking
 M586 P0 S1 						; Enable HTTP
 M586 P1 S0 						; Disable FTP
