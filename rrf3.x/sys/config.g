@@ -23,8 +23,8 @@ M586 P2 S0 						; Disable Telnet
 M569 P0 S0 						; Drive 0 X
 M569 P1 S0 						; Drive 1 Y
 M569 P2 S1 						; Drive 2 Z
-M569 P3 S0 						; Drive 3 E0
-M569 P4 S0 						; Drive 4 E1
+M569 P3 S1 						; Drive 3 E0
+M569 P4 S1 						; Drive 4 E1
 M569 P5 S1 						; Drive 5 E2
 M569 P6 S1 						; Drive 6 E3
 M569 P7 S0 						; Drive 7 COUPLER
@@ -123,10 +123,10 @@ M593 F42.2						; cancel ringing at 42.2Hz (https://forum.e3d-online.com/threads
 ; Volcano-tool: X-9 Y39 Z-13.5
 ; Hemera-tool: X20 Y43.5 Z-6
 
-G10 P0 X-9 Y39 Z-5					; T0
-G10 P1 X-9 Y39 Z-5					; T1
-G10 P2 X-9 Y39 Z-5					; T2
-G10 P3 X-9 Y39 Z-5					; T3
+G10 P0 X20 Y43.5 Z-5.7						; T0
+G10 P1 X20.6 Y42.9 Z-5.79					; T1
+G10 P2 X20.3 Y43.15 Z-5.75					; T2
+G10 P3 X20.3 Y43.2 Z-5.93					; T3
 
 ;M572 D0 S0.2 						; pressure advance T0
 ;M572 D1 S0.2 						; pressure advance T1
